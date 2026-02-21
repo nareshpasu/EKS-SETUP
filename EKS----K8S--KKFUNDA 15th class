@@ -1,0 +1,54 @@
+[ec2-user@ip-172-31-40-161 ~]$ history
+    1  aws --version
+    2  curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/latest/2023-11-14/bin/linux/amd64/kubectl
+    3  chmod +x kubectl
+    4  sudo mv kubectl /usr/local/bin/
+    5  curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_Linux_amd64.tar.gz" | tar xz
+    6  sudo mv eksctl /usr/local/bin
+    7  aws configure
+    8  aws sts get-caller-identity
+    9  eksctl version
+   10  aws s3 ls
+   11  history
+   12  eksctl
+   13  aws s3 ls
+   14  kubectl --version
+   15  kubectl -version
+   16  kubectl version --client
+   17  kubectl version
+   18  curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/latest/2023-11-14/bin/linux/amd64/kubectl
+   19  chmod +x kubectl
+   20  sudo mv kubectl /usr/local/bin/
+   21  kubectl version
+   22  kubectl version --client
+   23  eksctl version
+   24  eksctl create cluster   --name dev-cluster   --region ap-south-1   --nodegroup-name dev-nodes   --node-type c7i-flex.large   --nodes 2   --nodes-min 2   --nodes-max 3   --managed
+   25  uname -m
+   26  curl -LO https://dl.k8s.io/release/v1.29.0/bin/linux/amd64/kubectl
+   27  chmod +x kubectl
+   28  sudo mv kubectl /usr/local/bin/
+   29  kubectl version --client
+   30  kubectl get nodes
+   31  kubectl version --client
+   32  kubectl get ns
+   33  kubectl get po
+   34  kubectl run webapp --image=httpd
+   35  kubectl get all
+   36  kubectl create deploymt demo-nginx --image=nginx --replicas=2 --port=80
+   37  kubectl create deployment demo-nginx --image=nginx --replicas=2 --port=80
+   38  kubectl get po
+   39  kubectl get all
+   40  kubectl expose deployment demo-nginx --port=80 --type=LoadBalacer
+   41  kubectl expose deployment demo-nginx --port=80 --type=LoadBalancer
+   42  kubectl get all
+   43  top
+   44  kubectl get all
+   45  kubectl get po
+   46  vi deploy.yml
+   47  kubectl apply -f deploy.yml
+   48  vi deploy.yml
+   49  kubectl apply -f deploy.yml
+   50  kubectl get po
+   51  kubectl get all
+   52  history
+[ec2-user@ip-172-31-40-161 
